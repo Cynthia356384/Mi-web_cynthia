@@ -1,0 +1,234 @@
+
+body{
+    background-color: #F7C6D9;
+    color: #6B2C4C;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: small;
+    text-align: center;
+}
+
+/* ============================
+   ENCABEZADO (header)
+   ============================ */
+header{
+    background-color: #D6336C;
+    color: #FFFFFF;
+    padding: 25px 20px;
+    border-bottom: solid 4px #FFB3C6;
+}
+
+header h1{
+    color: #000000;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+}
+
+header h1 em{
+    color: #000000;
+    font-style: italic;
+}
+
+/* ============================
+   CONTENIDO PRINCIPAL (section)
+   ============================ */
+section{
+    background-color: #FFF0F5;
+    color: #6B2C4C;
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border: solid 2px #F48FB1;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(214, 51, 108, 0.25);
+}
+
+section h2{
+    color: #D6336C;
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #F48FB1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section a{
+    color: #D6336C;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dotted #D6336C;
+}
+
+section a:hover{
+    color: #A61E4D;
+}
+
+/* ============================
+   PIE DE PÁGINA (footer)
+   ============================ */
+footer{
+    background-color: #D6336C;
+    color: #FFFFFF;
+    padding: 15px;
+    border-top: 4px solid #FFB3C6;
+    margin-top: 25px;
+}
+
+/* ============================
+   MENÚ DE NAVEGACIÓN (nav)
+   ============================ */
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav li{
+    padding: 10px 15px;
+}
+
+nav a{
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 6px 14px;
+    border: 1px solid #FFB3C6;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #D6336C;
+    background-color: #FFB3C6;
+}
+
+/* ============================
+   TEXTO Y LISTAS
+   ============================ */
+section li{
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+}
+
+section table{
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    border: 1px solid #F48FB1;
+    border-collapse: collapse;
+}
+
+section table td{
+    border: 1px solid #F48FB1;
+    padding: 8px;
+}
+
+em{
+    color: #A61E4D;
+    font-style: italic;
+}
+
+strong{
+    color: #D6336C;
+}
+
+/* ============================
+   IMÁGENES
+   ============================ */
+img{
+    border: 3px solid #F48FB1;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* ============================
+   INTERACTIVIDAD JS
+   ============================ */
+nav ul{
+    flex-wrap: wrap;
+}
+
+#fecha{
+    background-color: #FFB3C6;
+    color: #6B2C4C;
+    border: 2px solid #F48FB1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 70%;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.herramienta{
+    background-color: #FFF0F5;
+    border: 2px solid #F48FB1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+}
+
+input[type="number"],
+input[type="text"],
+input[list],
+textarea,
+select{
+    border: 1px solid #F48FB1;
+    border-radius: 6px;
+    padding: 5px;
+    color: #6B2C4C;
+    background-color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+
+button{
+    background-color: #D6336C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 14px;
+    margin: 3px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #A61E4D;
+}
+
+.resultado{
+    color: #A61E4D;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.pregunta{
+    text-align: left;
+    width: 60%;
+    margin: 12px auto 4px auto;
+}
+
+fieldset{
+    border: 2px solid #F48FB1;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+legend{
+    color: #D6336C;
+    font-weight: bold;
+}
+
+.error{
+    color: #A61E4D;
+    font-weight: bold;
+    text-align: left;
+    width: 60%;
+    margin: 10px auto;
+}
